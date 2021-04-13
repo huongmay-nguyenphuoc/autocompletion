@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+a {
+    color: teal;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+main {
+    flex: 1 0 auto;
+    background: #C4DDD8;
+}
+
+#autocomplete-input {
+    color: white;
+}
+
+.siteTitleLogo, h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-size: 100%;
+}
